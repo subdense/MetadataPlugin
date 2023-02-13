@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pir_V4DockWidgetBase</class>
+ <widget class="QDockWidget" name="Pir_V4DockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>609</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pir_V4</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="0">
+     <widget class="QPushButton" name="valid">
+      <property name="text">
+       <string>Publier toutes les modifications</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="titre">
+      <property name="text">
+       <string>Métadonnées utiles pour interpréter la géométrie</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="auteur"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QTabWidget" name="tab">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab1">
+       <attribute name="title">
+        <string>GUF 1</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="10" column="0">
+         <widget class="QLabel" name="label_comment1">
+          <property name="text">
+           <string>commentaire</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QTextEdit" name="comment1"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextBrowser" name="text1"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab2">
+       <attribute name="title">
+        <string>GUF 2</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="2" column="0">
+         <widget class="QTextEdit" name="comment2"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_comment2">
+          <property name="text">
+           <string>commentaire</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextBrowser" name="text2"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab3">
+       <attribute name="title">
+        <string>GUF 3</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="2" column="0">
+         <widget class="QTextEdit" name="comment3"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_comment3">
+          <property name="text">
+           <string>commentaire</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QTextBrowser" name="text3"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_auteur">
+      <property name="text">
+       <string>auteur</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_date">
+      <property name="text">
+       <string>date</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="date"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
